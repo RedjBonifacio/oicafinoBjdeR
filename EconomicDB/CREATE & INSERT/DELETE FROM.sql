@@ -1,4 +1,4 @@
-USE ecoDB;
+USE EconomicDB;
 
 DELETE FROM Policy_Inflation;
 DELETE FROM Business_Policy;
