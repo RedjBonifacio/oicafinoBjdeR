@@ -26,6 +26,3 @@ GRANT INSERT, UPDATE ON dbo.Job_Creation_Program TO DataEncoderUser;
 
 -- Deny delete (restrictive)
 DENY DELETE ON dbo.Business TO DataEncoderUser;
-
--- Optional strict read restriction
--- DENY SELECT ON dbo.Business TO DataEncoderUser;
