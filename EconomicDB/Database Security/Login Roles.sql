@@ -10,7 +10,7 @@ CREATE USER EconomicAdminUser FOR LOGIN EconomicAdmin;
 CREATE USER EconomicAnalystUser FOR LOGIN EconomicAnalyst;
 CREATE USER DataEncoderUser FOR LOGIN DataEncoder;
 
--- Set Default Database (optional but helpful)
+-- Set Default Database
 ALTER LOGIN EconomicAdmin WITH DEFAULT_DATABASE = EconomicDB;
 ALTER LOGIN EconomicAnalyst WITH DEFAULT_DATABASE = EconomicDB;
 ALTER LOGIN DataEncoder WITH DEFAULT_DATABASE = EconomicDB;
