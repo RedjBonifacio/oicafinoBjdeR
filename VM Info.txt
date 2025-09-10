@@ -1,0 +1,30 @@
+E:\VirtualBox VMs\TIPQC
+
+			Local Machine				Server 1				Server 2
+VM Name: 		bonifacio - Local Machine		bonifacio - Server 1			bonifacio - Server 2
+User Name: 		redjbonifacio				redj1bonifacio				redj2bonifacio
+Password: 		12345					12345					12345
+Host Name: 		bonifacioLocalMachine			bonifacioServer1			bonifacioServer2
+Domain Name: 		rdjbnfc.virtualbox.org			rdjbnfc1.virtualbox.org			rdjbnfc2.virtualbox.org
+
+Hardware: 		5 GB RAM				3 GB RAM				3 GB RAM
+			2 CPU					1 CPU					1 CPU
+			15 GB Disk Size				10 GB Disk Size				10 GB Disk Size
+
+Host-only Network:	VirtualBox Host-Only Ethernet Adapter   VirtualBox Host-Only Ethernet Adapter   VirtualBox Host-Only Ethernet Adapter
+			Adapter					Adapter					Adapter
+			IPv4 Address:         192.168.56.1	IPv4 Address:         192.168.56.1	IPv4 Address:         192.168.56.1
+			IPv4 Network Mask:    255.255.255.0	IPv4 Network Mask:    255.255.255.0	IPv4 Network Mask:    255.255.255.0
+			
+			DHCP Server				DHCP Server				DHCP Server
+			Server Address:       192.168.56.100	Server Address:       192.168.56.100	Server Address:       192.168.56.100
+			Server Mask:          255.255.255.0	Server Mask:          255.255.255.0	Server Mask:          255.255.255.0
+			Lower Address Bound:  192.168.56.101	Lower Address Bound:  192.168.56.101	Lower Address Bound:  192.168.56.101
+			Upper Address Bound:  192.168.56.254	Upper Address Bound:  192.168.56.254	Upper Address Bound:  192.168.56.254
+
+			Adapter 1: (NAT)			Adapter 1: (NAT)			Adapter 1: (NAT)
+			MAC Address: 	      000000000000	MAC Address: 	      000000000000	MAC Address: 	      000000000000
+
+			Adapter 2: (Host-Only Adapter)		Adapter 2: (Host-Only Adapter)		Adapter 2: (Host-Only Adapter)
+			MAC Address: 	      000000000000	MAC Address:          0000000000000	MAC Address:          000000000000   	      
+ 			
